@@ -50,6 +50,30 @@
 
 ## 📁 Project Structure
 
+ERP-System/
+├── client/ # React frontend
+│ ├── public/ # Static assets
+│ └── src/
+│ ├── components/ # Shared UI components
+│ ├── pages/
+│ │ ├── Admin/ # Admin dashboard and features
+│ │ ├── HR/ # HR panel for attendance & leave mgmt
+│ │ └── Employee/ # Employee panel for punch & leave
+│ ├── services/ # Axios/API integrations
+│ ├── App.js # App routing and layout
+│ └── index.js # React entry point
+│
+├── server/ # Node + Express backend
+│ ├── controllers/ # Route handlers
+│ ├── models/ # Mongoose schemas (User, Leave, Log)
+│ ├── routes/ # API endpoints for HR, Admin, Employee
+│ ├── middleware/ # Auth & role check
+│ └── server.js # Main backend entry
+│
+├── .env # Environment variables (Mongo URI, etc.)
+├── .gitignore # Files to ignore in Git
+├── README.md # Project documentation
+└── package.json # Project metadata
 
 
 
