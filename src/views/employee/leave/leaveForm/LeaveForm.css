@@ -1,0 +1,281 @@
+/* LeaveForm.css */
+.leave-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .leave-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .leave-header h1 {
+    color: #333;
+    margin: 0;
+  }
+  
+  .toggle-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .toggle-btn.apply {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .toggle-btn.cancel {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .leave-form-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .leave-form-card h2 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .leave-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .required {
+    color: #f44336;
+  }
+  
+  .error {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  .form-actions {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .cancel-btn {
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .leave-balance-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .leave-balance-card h3 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .balance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .balance-item {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    padding: 15px;
+    border-left: 4px solid #4CAF50;
+  }
+  
+  .balance-type {
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .balance-days {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .leave-history-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .history-header h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .history-stats {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .history-stats span {
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  .leave-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leave-table th,
+  .leave-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .leave-table th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .leave-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .reason-cell {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .badge.approved {
+    background-color: #e8f5e9;
+    color: #4CAF50;
+  }
+  
+  .badge.pending {
+    background-color: #fff8e1;
+    color: #FFC107;
+  }
+  
+  .badge.rejected {
+    background-color: #ffebee;
+    color: #f44336;
+  }
+  
+  .no-history {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+    font-style: italic;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .leave-form {
+      grid-template-columns: 1fr;
+    }
+    
+    .balance-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .history-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    
+    .history-stats {
+      flex-wrap: wrap;
+    }
+  }

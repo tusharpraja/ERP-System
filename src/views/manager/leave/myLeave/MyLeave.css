@@ -1,0 +1,152 @@
+.leave-container {
+    padding: 24px;
+    background-color: #f3f4f6;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+ 
+  .leave-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .leave-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e3a8a;
+  }
+ 
+  .leave-subtitle {
+    font-size: 14px;
+    color: #4b5563;
+  }
+ 
+  .leave-policy-link {
+    color: #dc2626;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+ 
+  .leave-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+  }
+ 
+  .leave-card {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+ 
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .leave-type {
+    font-size: 18px;
+    font-weight: 600;
+  }
+ 
+  .status-badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+ 
+  .status-badge.paid {
+    background-color: #d1fae5;
+    color: #065f46;
+  }
+ 
+  .status-badge.unpaid {
+    background-color: #fee2e2;
+    color: #991b1b;
+  }
+ 
+  .leave-usage {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 16px;
+  }
+ 
+  .progress-container {
+    margin-top: 16px;
+  }
+ 
+  .progress-bar {
+    background-color: #e5e7eb;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+ 
+  .progress-fill {
+    height: 100%;
+    background-color: #3b82f6;
+    border-radius: 4px 0 0 4px;
+  }
+ 
+  .progress-text {
+    text-align: right;
+    font-size: 12px;
+    color: #6b7280;
+    margin-top: 4px;
+  }
+ 
+  .leave-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+ 
+  .application-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1e3a8a;
+  }
+ 
+  .application-badge {
+    background-color: #1d4ed8;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+ 
+  .application-subtitle {
+    font-size: 14px;
+    color: #6b7280;
+  }
+ 
+  .apply-button {
+    background-color: #2563eb;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+ 
+  .apply-button:hover {
+    background-color: #1e40af;
+  }
+ 
+  .plus-icon {
+    margin-right: 6px;
+    font-weight: bold;
+  }

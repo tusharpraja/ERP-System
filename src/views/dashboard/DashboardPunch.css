@@ -1,0 +1,139 @@
+.dashboard-punch-container {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 1255px;
+  }
+  
+  .punch-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .status-indicator {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .status-working {
+    background: #e3f7e8;
+    color: #28a745;
+  }
+  
+  .status-break {
+    background: #fff3e0;
+    color: #ff9800;
+  }
+  
+  .status-out {
+    background: #f0f0f0;
+    color: #6c757d;
+  }
+  
+  .time-metrics {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .metric {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    color: #495057;
+  }
+  
+  .punch-controls {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .punch-btn {
+    flex: 1;
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+  }
+  
+  .punch-btn span {
+    margin-top: 6px;
+  }
+  
+  .punch-in {
+    background: #e3f7e8;
+    color: #28a745;
+  }
+  
+  .punch-in:hover {
+    background: #d4f1db;
+  }
+  
+  .punch-out {
+    background: #fce8e9;
+    color: #dc3545;
+  }
+  
+  .punch-out:hover {
+    background: #fad8da;
+  }
+  
+  .break-start {
+    background: #fff3e0;
+    color: #ff9800;
+  }
+  
+  .break-start:hover {
+    background: #ffe8c2;
+  }
+  
+  .break-end {
+    background: #e3f2fd;
+    color: #1976d2;
+  }
+  
+  .break-end:hover {
+    background: #cfe0fc;
+  }
+  
+  .punch-complete {
+    padding: 12px;
+    text-align: center;
+    color: #6c757d;
+    font-size: 0.9rem;
+  }
+  
+  .time-stamps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 0.85rem;
+    color: #6c757d;
+  }
+  
+  .stamp {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .stamp span {
+    font-weight: 500;
+  }

@@ -1,0 +1,31 @@
+.holidaySection {
+    margin: 20px 0;
+}
+
+.title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.leaveBoard,
+.pickSection,
+.cancelSection {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.applyButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.applyButton:hover {
+    background-color: #45a049;
+}

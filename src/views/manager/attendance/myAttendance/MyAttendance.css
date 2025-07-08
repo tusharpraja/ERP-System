@@ -1,0 +1,143 @@
+/* MyAttendance.css */
+
+:root {
+    --primary-color: #0d6efd;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --success-color: #198754;
+    --text-color: #343a40;
+    --subtext-color: #6c757d;
+    --bg-light: #f8f9fa;
+    --hover-light: #f1f1f1;
+    --border-radius: 8px;
+  }
+  
+  /* Title Section */
+  .attendance-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 0.2rem;
+  }
+  
+  .attendance-subtitle {
+    font-size: 1rem;
+    color: var(--subtext-color);
+    margin-bottom: 1rem;
+  }
+  
+  /* Button Styles */
+  .break-btn,
+  .clockout-btn {
+    min-width: 160px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-radius: var(--border-radius);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+  
+  .break-btn svg,
+  .clockout-btn svg {
+    margin-right: 8px;
+  }
+  
+  /* Break button styles */
+  .break-btn.btn-warning {
+    background-color: var(--warning-color);
+    color: #212529;
+    border: none;
+  }
+  
+  .break-btn.btn-danger {
+    background-color: var(--danger-color);
+    color: #fff;
+    border: none;
+  }
+  
+  .break-btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Clock-out button */
+  .clockout-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+  }
+  
+  .clockout-btn:hover {
+    background-color: #0b5ed7;
+  }
+  
+  /* Table Styles */
+  .table-header {
+    font-weight: 600;
+    background-color: var(--bg-light);
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: var(--hover-light);
+    cursor: pointer;
+  }
+  
+  .table td,
+  .table th {
+    vertical-align: middle;
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
+  
+  /* Status Badge */
+  .attendance-status {
+    display: inline-block;
+    padding: 0.35rem 0.65rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
+  .status-Holiday {
+    background-color: var(--success-color);
+  }
+  
+  .status-Logout {
+    background-color: var(--danger-color);
+  }
+  
+  .status-Week\ Off {
+    background-color: var(--subtext-color);
+  }
+  
+  .status-Login {
+    background-color: var(--warning-color);
+    color: #212529;
+  }
+  
+  /* Responsive scroll */
+  .scroller {
+    overflow-x: auto;
+  }
+  
+  /* Dropdown style */
+  select.form-select {
+    padding: 6px 12px;
+    font-size: 0.95rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    transition: border-color 0.2s ease;
+  }
+  
+  select.form-select:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+  }
+  

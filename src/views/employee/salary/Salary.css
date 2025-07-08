@@ -1,0 +1,51 @@
+.salary-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  }
+  
+  .salary-summary {
+    display: flex;
+    justify-content: space-between;
+    background: #f4f4f4;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .salary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .salary-table th,
+  .salary-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .salary-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .download-btn {
+    background-color: #0066ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .status {
+    color: green;
+    font-weight: bold;
+  }
+  

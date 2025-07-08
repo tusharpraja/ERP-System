@@ -1,0 +1,219 @@
+/* styles.css (or your preferred CSS file name) */
+
+/* Status Badges */
+.status-badge {
+    height: 24px;
+    padding: 0 10px;
+    font-weight: 500;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+  
+  .status-pending {
+    background-color: rgba(255, 193, 7, 0.1);
+    color: #ffc107;
+    border-color: rgba(255, 193, 7, 0.3);
+  }
+  
+  .status-approved {
+    background-color: rgba(40, 167, 69, 0.1);
+    color: #28a745;
+    border-color: rgba(40, 167, 69, 0.3);
+  }
+  
+  .status-rejected {
+    background-color: rgba(220, 53, 69, 0.1);
+    color: #dc3545;
+    border-color: rgba(220, 53, 69, 0.3);
+  }
+  
+  .status-cancelled {
+    background-color: rgba(108, 117, 125, 0.1);
+    color: #6c757d;
+    border-color: rgba(108, 117, 125, 0.3);
+  }
+  
+  /* Table Styles */
+  .leave-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leave-table th {
+    vertical-align: middle;
+    white-space: nowrap;
+    background: #eeeeee;
+    color: #535862;
+    border: none;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding: 12px 15px;
+    font-weight: 500;
+  }
+  
+  .leave-table td {
+    vertical-align: middle;
+    white-space: nowrap;
+    background: transparent;
+    color: var(--secondaryDashColorDark);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 12px 15px;
+  }
+  
+  /* Scroller Container */
+  .scroller-container {
+    height: fit-content;
+    max-height: 75vh;
+    overflow: auto;
+    position: relative;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  /* Form Elements */
+  .leave-textarea {
+    height: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 6px 12px;
+    resize: none;
+  }
+  
+  /* Header Styles */
+  .leave-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    align-items: center;
+  }
+  
+  .leave-title {
+    font-weight: 500;
+    color: var(--PrimaryColorDark);
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+  }
+  
+  .leave-count {
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 50px;
+    padding: 0 8px;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Pagination Styles */
+  .pagination-container {
+    background: var(--primaryDashMenuColor);
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .pagination-btn {
+    background-color: #f8f9fa;
+    color: #212529;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  }
+  
+  .pagination-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .page-number {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 2.3rem;
+    width: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Modal Styles */
+  .leave-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+  }
+  
+  .modal-content {
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .modal-header {
+    padding: 16px;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal-body {
+    padding: 16px;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .modal-footer {
+    padding: 16px;
+    border-top: 1px solid #dee2e6;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }

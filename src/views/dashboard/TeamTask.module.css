@@ -1,0 +1,27 @@
+.teamTask {
+    margin: 20px 0;
+}
+
+.teamTask h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.taskTable {
+    width: 300px;
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.taskTable th,
+.taskTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.taskTable th {
+    background-color: #e0e0e0;
+}

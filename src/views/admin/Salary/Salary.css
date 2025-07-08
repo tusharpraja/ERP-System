@@ -1,0 +1,133 @@
+/* styles.css */
+
+/* Container Styles */
+.custom-container {
+    max-width: 1550px;
+}
+
+/* Card Styles */
+.card {
+    box-shadow: none !important; /* Force removal of any shadow */
+    border: none !important; /* Ensure no border is applied */
+}
+
+/* Card Header */
+.card-header {
+    background-color: #ffffff;
+    padding: 30px;
+    border-bottom: 2px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+/* Header Title */
+.card-header h4 {
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card-header p {
+    margin: 0;
+    color: #888;
+}
+
+/* Header Right Section */
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.header-left {
+    margin-right: auto;
+}
+
+/* Search Bar */
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 280px;
+    margin-right: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Action Buttons */
+.header-right button {
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header-right button:hover {
+    background-color: #0056b3;
+}
+
+/* Table Container */
+.table-container {
+    margin-top: 30px;
+    overflow-x: auto;
+    border-radius: 8px;
+}
+
+/* Table Header */
+.table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Table Row */
+.table td {
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: none; /* Removed the border from cells */
+}
+
+/* Action Icons */
+.action-icons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.action-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.action-button i {
+    font-size: 20px;
+    color: #007bff;
+}
+
+.action-button:hover i {
+    color: #0056b3;
+}
+
+/* Table Row Hover */
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Avatar styling */
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 15px;
+}
